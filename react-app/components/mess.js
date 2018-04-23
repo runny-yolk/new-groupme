@@ -75,6 +75,7 @@ module.exports = class Messages extends React.Component {
         });
 
         input.value = '';
+        input.focus();
     }
 
     
